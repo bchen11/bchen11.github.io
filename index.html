@@ -8,9 +8,11 @@
 
         <title>Binlin Chen</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Megrim&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./static/style.css">
 
     </head>
 
@@ -24,7 +26,7 @@
             <div class="collapse navbar-collapse" id="collapse_me">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#background"><p id="nav_links">about</p><a>
+                            <a class="nav-link" href="#about"><p id="nav_links">about</p><a>
                         </li>
 
                         <li class="nav-item">
@@ -35,12 +37,148 @@
                             <a class="nav-link" href="#leadership"><p id="nav_links">leadership</p></a>
                         </li>
 
-                      
-                    </ul>
-                </div>
-            </nav>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/files" target="_blank"><p id="nav_links">resume</p></a>
+                        </li>
 
-           
-    </body>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#more"><p id="nav_links">more</p></a>
+                        </li>
+                    </ul>
+               </div>
+        </nav>
+
+        <div class="container">
+            <!--about-->
+               <div class="row" id="about">
+                         <div class="col" id ="small_box">
+                              <div id="type_box">
+                                   <p class="title" id="about_p">Hi,I'm Binlin.</p> 
+                              </div>
+
+                              <div>
+                                   <p class="text" id="about_text">I'm a computer scicence student who likes to create cool software and apps </p>
+                              </div>
+
+                              <div id="logo_holder">
+                                   <a href="https://github.com/bchen11" target="_blank"><img src="./file/github.png" alt="github logo" id="logos"/></a>
+                                   <a href="https://www.linkedin.com/in/bchen11/" target="_blank"><img src="./file/linkedin.png" alt="github logo" id="logos"/></a>
+                                   <a href="mailto:binlin1331@gmail.com" target="_blank"><img src="./file/email.png" alt="github logo" id="logos"/></a>
+                              </div>
+                         </div>
+
+                         <div class="col" id="picture_box">
+                              <img src="./file/profile.jpg" id="profile_pic" alt="photo of me"/>
+                         </div>
+               </div>
+
+               <br>
+
+        <!-- background -->
+        <p class="title" id="background">Background</p>
+        <div class="row" id="back_p">
+             <div class="col" >
+                <p class="text" id="back_0">
+                    I'm currently an Honors student @
+                    <strong>State University of NY at New Paltz</strong>
+                    studying Computer Science. I am also serving in <strong>The United State Marine Corps</strong> as a Food Service Specialist to conduct monthly military drill.
+              
+                  </p>
+
+                  <br>
+              
+                  <p class="text" id="back_0">
+                    I enjoy bridging the gap between engineering and design &mdash; combining my newfound technical knowledge
+                    with my keen eye for design to create a beautiful product. My goal as a student is to learn how to build efficient applications
+                    that provide a user experience that is pleasing to the eye.
+                  </p>
+              
+                  <p class="text" id="back_0">
+                    <strong>When I'm not in front of a computer screen</strong>, I'm probably playing guitar, playing basketball,
+                    lifting weights or crossing off another item on my bucket list.
+                  </p>
+                  
+             </div>
+        </div>
+
+
+        <!-- projects -->
+        <p class="title" id="projects">Projects</p>
+        <div class="row" id="proj">
+             <div class="col-lg-4 col-md-6 col-sm-12" id="project_box">
+                  <img src="./file/TankWar.jpg" alt="my personal game - TankWar" id="project_img"/>
+
+                  <p class="text" id="project_p">
+                       I created a Tank War game that destorys other enemy tanks using java OOP concept and Maven.
+                  </p>
+
+                  <a href="https://github.com/bchen11/NewTankWar" target="_blank">
+                       <img src="./file/github.png" alt="github logo" id="project_logo"/>
+                  </a>
+             </div>
+
+             <div class="col-lg-4 col-md-6 col-sm-12" id="project_box">
+                  <img src="./file/ProbabilitySimulator.png" alt="school project where I worked on facial recognition with machine learning" id="project_img"/>
+
+                  <div id="project_text_box">
+                       <p class="text" id="project_p">
+                         I worked in a team of four to create a probability simulator software that includes ability to simulate Coins, Dice and a deck of Cards. 
+                       </p>
+                  </div>
+
+                  <a href="https://github.com/datheavyguy/CPS353-Probability-Simulator" target="_blank">
+                       <img src="./file/github.png" alt="github logo" id="project_logo"/>
+                  </a>
+             </div>
+
+        </div>
+
+
+         <!-- leadership -->
+         <p class="title" id="leadership">Leadership</p>
+         <div class="row" id="leadership_box">
+              <div class="col">
+                   <p class="title" id="lead">Lance Corporal of the United States Marine Corps</p>
+                   <p class="text">August 2017 - Present</p>
+                   <p class="text">
+                        I joined Marine Corps after I grauated from high school in 2017. I want to challenge myself and fulfill my dream of becoming a soldier
+                   </p>
+
+               
+                   <ul class="text">
+                        <li>Server as the squad leader for a group of 4 marine for weekly check in munster and conduct monthly counseling </li>
+                        <li>Complete tasks and combat training within a unit as a marine corps reservist on a monthly drill schedule and two weeks of professional training in the summer.</li>
+                        <li>Serve and provide food for training marines in the field as a food service specialist</li>
+                        <li>Maintain and execute marine corps standards and core value</li>
+                   </ul>
+
+                   <br>
+
+                   <p class="title" id="lead">Conversation Mentor/Partner </p>
+                         <p class="text">Jan 2019 - May 2019</p>
+                         <p class="text">
+                              Mentored a internationl student that is part of Conversation Partner Commnity with school work, campus life, language barrier,
+                               and programs that may help the student with their future objectives. We had bi-weekly meetings to go over goals set at the beginning
+                                of the semester and added new goals as the year progressed. In the end we completed all the goals thay my parner had set and still keep in touch.
+                               
+                         </p>
+                        
+
+              </div>
+         </div>
+
+               <!-- more -->
+               <div class="row" id="more">
+                    <div class="col">
+                         <p class="updates">to be updated</p>
+                    </div>
+               </div>
+          </div>
+
+          <script   src="https://code.jquery.com/jquery-3.2.1.slim.js"   integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="   crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha512-hJSZLjaUow3GsiAkjUBMxN4eaFysMaBvg7j6mkBeo219ZGmSe1eVhKaJJAj5GzGoD0j0Gr2/xNDzjeecdg+OCw==" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          
+     </body>
 
 </html>

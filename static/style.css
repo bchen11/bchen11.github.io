@@ -1,0 +1,194 @@
+/*body*/
+body {
+	background-color:#171c28;
+}
+
+.bg-dark {
+	background-color: #303030 !important;
+}
+
+.text {
+	font-family: monospace;
+	color: white;
+	letter-spacing: .01em;
+	
+}
+
+.title {
+	font-family: monospace;
+	font-size: 22px;
+	color: white;
+	letter-spacing: .01em;
+}
+
+.updates {
+	text-align: center;
+	color: white;
+	font-family: 'Megrim';
+	font-size: 45px;
+}
+
+
+
+
+/* navigation */
+#nav_links {
+	font-family: 'Megrim';
+	font-size: 25px;
+	margin: 0px;
+}
+
+#home_link {
+	font-family: 'Megrim';
+	font-size: 35px;
+	margin: 0px;
+     color: black;
+}
+/* about */
+#about {
+	min-height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* about logos */
+#logos {
+	width: 23%;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color:white;
+}
+
+#logo_holder {
+	text-align: center;
+}
+
+/* type animation */
+#type_box {
+	width: 210px;
+	margin-top: 15px;
+}
+
+#small_box {
+	flex-grow: 0;
+}
+
+#about_text {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#about_p {
+	overflow: hidden;
+	border-right: .10em solid white;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .1em;
+	animation:
+		typing 3s steps(15, end),
+		blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+
+@keyframes blink-caret {
+	from,to {border-color: transparent;}
+	50% { border-color: white }
+}
+
+/* about picture */
+#picture_box.col {
+	max-width: 425px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#profile_pic {
+	max-height: 500px;
+	max-width: 800px;
+	border-radius: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* background */
+#background {
+	text-align: center;
+	font-size: 25px;
+}
+
+#back_p {
+	min-height: 800px;
+	font-size: 13px;
+}
+
+#back_0 {
+	margin-bottom: 3px;
+}
+
+
+
+/* projects */
+#projects {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#proj {
+	min-height: 800px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#project_img {
+	height: 275px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#project_p {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#project_box {
+	flex-grow: 0;
+}
+
+#project_logo {
+	width: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 10px;
+}
+
+/* leadership */
+#leadership_box {
+	min-height: 800px;
+}
+
+#leadership {
+	text-align: center;
+	font-size: 25px;
+}
+
+#lead {
+	font-size: 17px;
+}
+
+/* more */
+#more {
+	min-height: 200px;
+	align-content: center;
+}
